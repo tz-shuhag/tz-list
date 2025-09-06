@@ -1,0 +1,9 @@
+! Title: Github Annoyances
+! Version: 1.0
+! Description: A list of annoyances in Github
+! Homepage: https://tz-shuhag.github.io
+
+!Github Student Developer Pack Page
+education.github.com##.mb-4.pack-offer-grid--experience-cards.pack-offer-grid
+education.github.com##.mb-8.f4
+education.github.com##.mt-md-0.my-4
