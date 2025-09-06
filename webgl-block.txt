@@ -1,0 +1,8 @@
+! Title: 🛡 WebGL Block 
+! Version: 1.0
+! Description: Block WebGL to harden the privacy & security of your web browser.
+! Homepage: https://tz-shuhag.github.io
+
+*##+js(prevent-canvas, experimental-webgl)
+*##+js(prevent-canvas, webgl)
+*##+js(prevent-canvas, webgl2)
