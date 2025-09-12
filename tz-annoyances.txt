@@ -1,5 +1,4 @@
-! Title: Github Annoyances
-! Version: 1.0
+! Title: TZ - Annoyances
 ! Description: A personal list of all sorts of annoyances
 ! Homepage: https://tz-shuhag.github.io
 
