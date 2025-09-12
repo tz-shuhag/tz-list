@@ -19,3 +19,5 @@ ieltstrainingonline.com##.post-meta
 ieltstrainingonline.com##.sticky-element-active.element-is-not-sticky.sticky-element-original
 ieltstrainingonline.com##.element-is-sticky.sticky-element-original
 
+! dzapk.com
+dzapk.com##.cc-color-override-1388882344.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
