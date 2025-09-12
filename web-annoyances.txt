@@ -3,3 +3,20 @@
 ! Description: A personal list of all sorts of annoyances
 ! Homepage: https://tz-shuhag.github.io
 
+!Github
+education.github.com##.mb-4.pack-offer-grid--experience-cards.pack-offer-grid
+education.github.com##.mb-8.f4
+education.github.com##.mt-md-0.my-4
+
+! Whatsapp
+web.whatsapp.com##.x6s0dn4.xdt5ytf.x1nhvcw1.x2lwn1j.xeuugli.x12fk4p8.x1oa3qoh.xozqiw3.x78zum5.x1g77sc7.xdl72j9.xs83m0k.x1c4vz4f
+
+! ieltstrainingonline.com
+ieltstrainingonline.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks > .et_social_icons_container > .et_social_facebook > .et_social_share
+ieltstrainingonline.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks > .et_social_icons_container > .et_social_twitter > .et_social_share
+ieltstrainingonline.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks > .et_social_icons_container > .et_social_gmail > .et_social_share
+ieltstrainingonline.com##.et_social_mobile_on.et_social_sidebar_flip.et_social_rectangle.et_social_animated.et_social_slideright.et_social_visible_sidebar.et_social_sidebar_networks > .et_social_icons_container > .et_social_linkedin > .et_social_share
+ieltstrainingonline.com##.post-meta
+ieltstrainingonline.com##.sticky-element-active.element-is-not-sticky.sticky-element-original
+ieltstrainingonline.com##.element-is-sticky.sticky-element-original
+
