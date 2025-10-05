@@ -24,4 +24,3 @@ dzapk.com##.cc-color-override-1388882344.cc-bottom.cc-theme-block.cc-type-info.c
 
 ! www.youtube.com
 www.youtube.com###content-wrapper
-www.youtube.com###dismissible
