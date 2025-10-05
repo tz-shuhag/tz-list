@@ -21,3 +21,7 @@ ieltstrainingonline.com##.element-is-sticky.sticky-element-original
 
 ! dzapk.com
 dzapk.com##.cc-color-override-1388882344.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
+
+! www.youtube.com
+www.youtube.com###content-wrapper
+www.youtube.com###dismissible
