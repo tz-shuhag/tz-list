@@ -31,3 +31,4 @@ youtube.com/watch###primary:style(margin: 0 auto !important; max-width: 75% !imp
 youtube.com##ytd-shelf-renderer:has(h2:has-text(Latest posts))
 youtube.com###voice-search-button
 youtube.com##ytd-button-renderer.style-scope.ytd-masthead
+www.youtube.com###content-wrapper
