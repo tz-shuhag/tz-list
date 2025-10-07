@@ -57,10 +57,8 @@ You can add the TZ List to your adblocker as a custom filter list using the foll
 1. Open uBlock Origin dashboard → Filter lists tab
 2. Scroll down to Custom
 3. Paste this URL:
-   - `https://raw.githubusercontent.com/tz-shuhag/tz-list/main/tzlist.txt`
-
-
-5. Click Apply Changes
+- `https://raw.githubusercontent.com/tz-shuhag/tz-list/refs/heads/main/tz-annoyances.txt`
+4. Click Apply Changes
 
 
 🔹 **For AdGuard:**
