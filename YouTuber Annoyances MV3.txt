@@ -5,6 +5,7 @@ youtube.com##div#rich-shelf-header.style-scope.ytd-rich-shelf-renderer
 youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
 youtube.com##grid-shelf-view-model:nth-of-type(3)
+youtube.com##ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer:nth-of-type(2)
 youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
 youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
