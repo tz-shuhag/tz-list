@@ -1,37 +1,15 @@
-! Shorts
-youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
-youtube.com##ytd-grid-video-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-youtube.com##ytd-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
-youtube.com##ytd-grid-video-renderer:has([overlay-style="SHORTS"])
-youtube.com##ytd-rich-item-renderer:has([overlay-style="SHORTS"])
-youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
-youtube.com##ytd-item-section-renderer.ytd-section-list-renderer[page-subtype="subscriptions"]:has(ytd-video-renderer:has([overlay-style="SHORTS"]))
-youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
-youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
-youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-reel-shelf-renderer:has(.ytd-reel-shelf-renderer:has-text(/(^| )Shorts( |$)/i))
-youtube.com##tp-yt-paper-tab:has(.tp-yt-paper-tab:has-text(Shorts))
-youtube.com##yt-tab-shape:has-text(/^Shorts$/)
-youtube.com##ytd-reel-shelf-renderer:has(#title:has-text(/(^| )Shorts.?Remix.*$/i))
-youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
-youtube.com##ytm-rich-item-renderer:has(#video-title:has-text(/(^| )#Shorts?( |$)/i))
+! Shorts - 
 youtube.com##.ytd-item-section-renderer.ytGridShelfViewModelGridShelfRow
+youtube.com##div#contents.style-scope.ytd-rich-shelf-renderer[style]
+youtube.com##div#rich-shelf-header.style-scope.ytd-rich-shelf-renderer
 youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(1)
 youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost:nth-of-type(2)
+youtube.com##grid-shelf-view-model:nth-of-type(3)
+youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
+youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 
-! Reccomendations
-youtube.com###secondary
-youtube.com###simple-box
-youtube.com###flexible-item-buttons
-youtube.com##ytd-metadata-row-container-renderer
-youtube.com##ytd-comments-header-renderer
-youtube.com##segmented-like-dislike-button-view-model
-youtube.com###community-post
-youtube.com##.html5-endscreen
-youtube.com##ytd-comment-engagement-bar
-youtube.com###creator-thumbnail
-youtube.com/watch###primary:style(margin: 0 auto !important; max-width: 75% !important; width: 100% !important; float: none !important)
-youtube.com##ytd-shelf-renderer:has(h2:has-text(Latest posts))
-youtube.com###voice-search-button
-youtube.com##ytd-button-renderer.style-scope.ytd-masthead
+! Reccomendations -
 youtube.com###content-wrapper
+youtube.com###secondary
+youtube.com##ytd-button-renderer.style-scope.ytd-masthead
