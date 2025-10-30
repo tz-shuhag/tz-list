@@ -1,0 +1,60 @@
+! Remove all annoyances and animations
+youtube.com##.YtdTalkToRecsFlowRendererHost:has-text(What hobbies are you interested in developing?)
+youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(/following Premium|Choose all that apply|Become a member|Free trial|How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply/)
+youtube.com##ytd-action-companion-ad-renderer, ytd-display-ad-renderer, ytd-video-masthead-ad-advertiser-info-renderer, ytd-video-masthead-ad-primary-video-renderer, ytd-in-feed-ad-layout-renderer, ytd-ad-slot-renderer, yt-about-this-ad-renderer, yt-mealbar-promo-renderer, ytd-ad-slot-renderer, ytd-in-feed-ad-layout-renderer, .ytd-video-masthead-ad-v3-renderer, div#root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint, div#sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer, div#main-container.style-scope.ytd-promoted-video-renderer, div#player-ads.style-scope.ytd-watch-flexy, ad-slot-renderer, ytm-promoted-sparkles-web-renderer, masthead-ad, #masthead-ad, ytd-video-quality-promo-renderer, #yt-lang-alert-container, .YtmPaidContentOverlayHost, .ytd-primetime-promo-renderer, ytd-brand-video-singleton-renderer, #yt-feedback, #yt-hitchhiker-feedback
+youtube.com###upsell-dialog-text > a[href*="sign"]:upward(body > * > *)
+youtube.com##.opened:not(.ytcp-bulk-actions):remove()
+youtube.com###cinematics.ytd-watch-flexy:remove()
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_animated_actions, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_animated_like, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_animated_like_lazy_load, false)
+ 
+! Remove most UI elements (including irrelevant search results)
+youtube.com##[page-subtype="home"] ytd-feed-filter-chip-bar-renderer.style-scope.ytd-rich-grid-renderer, div#chip-bar.style-scope.ytd-search-header-renderer, ytd-item-section-renderer.style-scope.ytd-section-list-renderer[page-subtype="playlist"] > #header.ytd-item-section-renderer > ytd-feed-filter-chip-bar-renderer
+youtube.com##ytd-search-header-renderer .yt-spec-button-shape-next--size-m:style(flex-direction: row-reverse !important)
+youtube.com##ytd-search-header-renderer .yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--icon-trailing .yt-spec-button-shape-next__icon:style(margin-left: -6px !important; margin-right: 6px !important)
+youtube.com##[is-search] ytd-shelf-renderer.ytd-item-section-renderer:not(ytd-channel-renderer + ytd-shelf-renderer), [is-search] ytd-horizontal-card-list-renderer.ytd-item-section-renderer:not(:first-child), [is-search] ytd-exploratory-results-renderer.ytd-item-section-renderer
+youtube.com##ytd-horizontal-card-list-renderer[modern-chapters][card-list-style=HORIZONTAL_CARD_LIST_STYLE_TYPE_ENGAGEMENT_PANEL_SECTION], ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer > #header.ytd-video-description-infocards-section-renderer, ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer > #action-buttons.ytd-video-description-infocards-section-renderer, #social-links.ytd-video-description-infocards-section-renderer
+youtube.com##ytd-video-description-infocards-section-renderer.style-scope.ytd-structured-description-content-renderer:style(border-top: 0 !important)
+
+! Remove shorts and irrelevant related videos on all pages (except on history page)
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer, ytd-browse[page-subtype="home"] ytd-rich-shelf-renderer, ytd-browse[page-subtype="subscriptions"] ytd-rich-shelf-renderer, ytd-search ytd-reel-shelf-renderer, ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer > div#contents.style-scope.ytd-item-section-renderer > ytd-reel-shelf-renderer.style-scope.ytd-item-section-renderer, ytd-reel-shelf-renderer.ytd-structured-description-content-renderer, ytd-watch-flexy ytd-rich-section-renderer.style-scope.ytd-rich-grid-renderer
+youtube.com###related ytd-compact-video-renderer:has(#video-title:is([title*="#shorts"]))
+youtube.com###related ytd-compact-video-renderer:has(#video-title:is([title*="#Shorts"]))
+youtube.com###related ytd-compact-video-renderer:has(#video-title:is([title*="#short"]))
+youtube.com###related ytd-compact-video-renderer:has(#video-title:is([title*="#Short"]))
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer [overlay-style="SHORTS"]:upward(ytd-grid-video-renderer)
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer [overlay-style="SHORTS"]:upward(ytd-item-section-renderer)
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer [overlay-style="SHORTS"]:upward(ytd-rich-item-renderer)
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+youtube.com##yt-chip-cloud-chip-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
+youtube.com###related ytd-compact-playlist-renderer, #related ytd-compact-radio-renderer, #related ytd-compact-movie-renderer, #related yt-lockup-view-model
+youtube-nocookie.com,youtube.com##.ytp-pause-overlay, .show-video-thumbnail-button
+~youtube-nocookie.com,~youtube.com##iframe ~ #topvbar > #rvid
+! youtube.com##ytd-watch-next-secondary-results-renderer
+! youtube.com##div.html5-endscreen.ytp-player-content.videowall-endscreen.ytp-show-tiles
+! youtube.com##yt-related-chip-cloud-renderer.style-scope.ytd-watch-next-secondary-results-renderer, ytd-watch-flexy ytd-rich-grid-renderer[hide-chips-bar] ytd-feed-filter-chip-bar-renderer.ytd-rich-grid-renderer, ytd-watch-flexy ytd-rich-grid-renderer[hide-chips-bar-on-watch] ytd-feed-filter-chip-bar-renderer.ytd-rich-grid-renderer, ytd-watch-flexy ytd-rich-grid-renderer[hide-chips-bar-on-home] #header.ytd-rich-grid-renderer ytd-feed-filter-chip-bar-renderer.ytd-rich-grid-renderer div#chip-bar.style-scope.ytd-search-header-renderer > yt-chip-cloud-renderer.style-scope.ytd-search-header-renderer > div#container.style-scope.yt-chip-cloud-renderer
+ 
+! More unwanted elements to be removed or fixed
+youtube.com##ytd-clarification-renderer.style-scope.ytd-watch-flexy
+youtube.com###comment-teaser, #teaser-carousel.ytd-watch-metadata, div#expandable-metadata.ytd-watch-flexy
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer[rendered-from-rich-grid]:style(margin-left: calc(var(--ytd-rich-grid-item-margin)/2 + var(--ytd-rich-grid-gutter-margin)) !important; margin-right: -8px !important)
+youtube.com##[page-subtype="home"] ytd-rich-item-renderer[rendered-from-rich-grid][is-in-first-column]:style(display: none !important)
+youtube.com##div.ghost-grid.style-scope.ytd-ghost-grid-renderer
+youtube.com##.ytp-inline-preview-mode .ytp-paid-content-overlay, #endorsement.ytd-video-preview
+youtube.com###hover-overlays
+||youtube.com/complete/search
+
+! More unwanted elements to be removed (if users have restricted mode enabled)
+youtube.com###chat
+youtube.com###comments.style-scope.ytd-watch-flexy
+||youtube.com/youtubei/v1/browse?key=$xhr,1p
+
+! More unwanted elements to be removed (to save more bandwidth on slow networks)
+youtube.com##.skeleton, #info-skeleton, #meta-skeleton, #owner-name, .skeleton-bg-color, #home-page-skeleton, #masthead-skeleton-icons
+||i.ytimg.com/vi_webp/*/maxresdefault.webp
+||i.ytimg.com/vi/*/maxresdefault.jpg
+||i.ytimg.com/sb/*
+www.youtube.com##div.ytp-tooltip-bg
+www.youtube.com##div.ytp-tooltip-image
+www.youtube.com##div.ytp-tooltip:style(border-radius:0px;!important)
