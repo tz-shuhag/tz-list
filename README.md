@@ -2,8 +2,9 @@
 > [!NOTE]
 > A personal filterlist for **`Ublock Origin`** / **`Adguard`** and other adblockers
 
-[![Platform](https://img.shields.io/badge/chrome%20|%20firefox%20|%20brave-platform?style=for-the-badge&label=platform&labelColor=21262d&color=238636)](#)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo?style=for-the-badge&logo=github&labelColor=21262d&color=181717)](https://github.com/tz-shuhag/tz-list)
 [![uBlock Origin](https://img.shields.io/badge/uBlock-Origin?style=for-the-badge&logo=ublockorigin&labelColor=21262d&color=800000)](https://ublockorigin.com/)
+[![Platform](https://img.shields.io/badge/chrome%20|%20firefox%20|%20brave-platform?style=for-the-badge&label=platform&labelColor=21262d&color=238636)](#)
 
 ![TZ-List](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/images/tzlist.webp)
 
