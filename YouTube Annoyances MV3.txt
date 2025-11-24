@@ -1,3 +1,7 @@
+! Title: YouTube Annoyances MV3
+! Description: List of all sorts of Youtube annoyances like (Shorts, Reccomendations)
+! Homepage: https://tz-shuhag.github.io
+
 ! Shorts - 
 youtube.com##.ytd-item-section-renderer.ytGridShelfViewModelGridShelfRow
 youtube.com##div#contents.style-scope.ytd-rich-shelf-renderer[style]
