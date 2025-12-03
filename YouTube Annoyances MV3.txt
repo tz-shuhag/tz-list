@@ -18,3 +18,8 @@ youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 youtube.com###content-wrapper
 youtube.com###secondary
 youtube.com##ytd-button-renderer.style-scope.ytd-masthead
+
+! Posts -
+youtube.com###scroll-container > .yt-horizontal-list-renderer.style-scope
+youtube.com###title-container
+
