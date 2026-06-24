@@ -1,0 +1,10 @@
+# Title: TZ Allowlist
+# Description: This list unblocks links that may cause breakage in websites.
+# Homepage: https://github.com/tz-shuhag/tz-list
+# Last modified: 24 Jun 2026
+# Version: 1
+# Syntax: Domains (without subdomains)
+# Number of entries: 2
+#
+tzshuhag.me
+services.student.sust.edu
