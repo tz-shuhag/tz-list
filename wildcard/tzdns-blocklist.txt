@@ -1,0 +1,12 @@
+# Title: TZ Blocklist
+# Description: This list blocks links that I personally found.
+# Homepage: https://github.com/tz-shuhag/tz-list
+# Last modified: 24 Jun 2026
+# Version: 1
+# Syntax: Domains (without subdomains)
+# Number of entries: 4
+#
+jaya9bangladesh.com
+jaya9.net
+jaya-9bd.com
+best.aliexpress.com
