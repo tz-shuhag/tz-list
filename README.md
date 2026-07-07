@@ -6,7 +6,7 @@
 [![uBlock Origin](https://img.shields.io/badge/uBlock-Origin?style=for-the-badge&logo=ublockorigin&labelColor=21262d&color=800000)](https://ublockorigin.com/)
 [![Platform](https://img.shields.io/badge/chrome%20|%20firefox%20|%20brave-platform?style=for-the-badge&label=platform&labelColor=21262d&color=238636)](#)
 
-![TZ-List](https://raw.githubusercontent.com/tz-shuhag/tz-shuhag.github.io/refs/heads/main/assets/images/tzlist.webp)
+![TZ-List](https://raw.githubusercontent.com/tz-shuhag/SimpTab/main/simptab.webp)
 
 ## Table of Contents
 
