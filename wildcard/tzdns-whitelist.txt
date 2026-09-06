@@ -6,5 +6,5 @@
 # Syntax: Domains (without subdomains)
 # Number of entries: 2
 #
-tzshuhag.me
-services.student.sust.edu
+tzshuhag.tech
+sust.edu
