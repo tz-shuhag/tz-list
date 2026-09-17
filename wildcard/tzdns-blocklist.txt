@@ -21,3 +21,5 @@ inmobi.com
 osano.com
 sharesale.com
 dai.google.com
+onesignal.com
+customer.io
