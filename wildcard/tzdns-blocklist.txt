@@ -4,7 +4,7 @@
 # Last modified: 24 Jun 2026
 # Version: 1
 # Syntax: Domains (without subdomains)
-# Number of entries: 28
+# Number of entries: 4
 #
 
 
@@ -12,27 +12,4 @@ jaya9bangladesh.com
 jaya9.net
 jaya-9bd.com
 best.aliexpress.com
-cookielaw.org
-onetrust.com
-cookiebot.com
-trustarc.com
-privacy-center.org
-privacy-mgmt.com
-usercentrics.eu
-inmobi.com
-osano.com
-sharesale.com
-dai.google.com
-onesignal.com
-customer.io
-s.youtube.com
-redirector.googlevideo.com
-quantcast.com
-rudderstack.com
-siftscience.com
-appsflyer.com
-bnc.lt
-analytics.twitter.com
-i.instagram.com
-widgets.pinterest.com
-snap.licdn.com
+
